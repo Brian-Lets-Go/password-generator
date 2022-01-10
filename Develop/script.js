@@ -8,10 +8,26 @@ var compileArray = []
 var passwordArray = []
 
 //Add arrays for each set of charachters
-var uppercase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
-var lowercase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
-var numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
-var characters = [" ", "!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", "<", "=", ">", "?", "@", "[", "]", "^", "_", "`", "{", "|", "}", "~"];
+var uppercaseArray = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+var lowercaseArray = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+var numbersArray = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+var charactersArray = [" ", "!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", "<", "=", ">", "?", "@", "[", "]", "^", "_", "`", "{", "|", "}", "~"];
+
+//Add the prompt for character count
+var characterCount = prompt ("How many Characters do you want your password to be (between 8 and 128)?");
+
+//Prompt for lowercase characters
+var lowercase = confirm ("Do you want to include lowercase characters in your password?");
+
+//Prompt for uppercase characters
+var uppercase = confirm ("Do you want to include uppercase characters in your password?");
+
+//Prompt for numbers
+var numbers = confirm ("Do you want numbers in your password?");
+
+//Prompt for special characters
+var characters = confirm ("Do you want special characters in your password?");
+
 
 }
 
